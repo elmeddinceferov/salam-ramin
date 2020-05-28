@@ -1,0 +1,265 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #E0D48A;
+  font-family: "Raleway",sans-serif;}
+
+
+.header{
+  background-color: #BCD92D;}
+
+.title{
+  font-size: 35px;
+  text-align: center;
+  padding-top:5vh;
+  padding-bottom: 5vh;
+  font-style: oblique;}
+
+.slogan{
+  margin-top: -9vh;
+  font-style: oblique;
+  text-align: center;
+  padding-bottom: 5vh;
+  padding-top: 5vh;}
+
+
+.title:hover{
+  background-color: black;
+  color: white;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
+  border-radius: 9px;
+  transition: 0.8s;}
+
+.slogan:hover{
+  background-color: black;
+  color: white;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  border-radius: 9px;
+  transition: 0.8s;
+  margin-top:-1.5vh;}
+
+
+.nav{
+  border:1px solid gray;
+  margin-top: 2vh;
+  background-color: white;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  text-align: center;}
+
+
+
+.nav ul li{
+  display: inline-block;
+  padding: 2vh;}
+
+
+.nav ul li a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;}
+
+
+
+
+.nav ul li a:hover{
+  color:white;
+  padding: 1.5vh;
+  border-radius: 5px;
+  border:2px solid green;
+  background-color: black}
+
+
+.body{
+  width: 100%;
+  height:1100px;}
+
+.left{
+  width: 20%;
+  display: inline-block;
+  float: left;}
+
+
+.right{
+  width: 80%;
+  display: inline-block;
+  float: right;}
+
+.mainMenu h3{
+  background-color: #D2D35E;
+  padding: 2vh;
+  margin-left: 5vh;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid blue;}
+
+.mainMenu li{
+  margin-left: 5vh;
+  margin-top: 1vh;}
+
+.mainMenu a{
+  color: black;
+  text-decoration: none;}
+
+
+.mainMenu a:hover{
+  background-color: #D2D35E;}
+
+
+.mainMenu h3:hover{
+  background-color:#1A4731;
+  border:5px solid #462A16;
+  color:white;}
+
+
+.block h3{
+  background-color: #D2D35E;
+  padding: 2vh;
+  margin-left: 5vh;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid blue;
+  margin-top: 3vw;}
+
+.block h3:hover{
+  background-color: #6F213F;
+  border:5px solid #462A16;
+  color:white;}
+
+
+.block .span1{
+  margin-left: 5vh;}
+
+.block .span2{
+  margin-left: 5vh;
+  margin-top: 2vh;
+  text-align: justify;}
+
+.mainMenu{
+  border-right: 1px solid gray;
+  padding-right: 2vh;}
+
+.block{
+  border-right: 1px solid gray;
+  padding-right: 2vh;}
+
+.section1 h3{
+  background-color: #D2D35E;
+  padding: 2vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid blue;
+  margin-top: 3vw;}
+
+.section1 h3:hover{
+  background-color: #1C3D5A;
+  border:5px solid #462A16;
+  color:white;}
+
+
+.section1 .text{
+  margin-left: 5vh;
+  margin-right:5vh;
+  text-align: justify;}
+
+
+  .section2 h3{
+    background-color: #D2D35E;
+    padding: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 3vw;
+  }
+
+  .section2 h3:hover{
+    background-color:#20504F;
+    border:5px solid #462A16;
+    color:white;}
+
+  .section2 .text{
+    margin-left: 5vh;
+    margin-right:5vh;
+    text-align: justify;
+    margin-bottom: 3vh;}
+
+
+.section3 h3{
+  background-color: #D2D35E;
+  padding: 2vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid blue;
+  margin-top: 3vw}
+
+.section3 h3:hover{
+  background-color:#3D4852;
+  border:5px solid #462A16;
+  color:white;}
+
+.section3 .text{
+  margin-left: 5vh;
+  margin-right:5vh;
+  text-align: justify;
+  margin-bottom: 3vh;}
+
+.section2 a{
+  margin-left: 5vh;
+  text-decoration: none;
+  color: black;
+  background-color:#D2D35E;
+  border: 1px solid black;
+  padding: 1vh;}
+
+.section3 a{
+  margin-left: 5vh;
+  text-decoration: none;
+  color: black;
+  background-color:#D2D35E;
+  border: 1px solid black;
+  padding: 1vh;}
+
+.section2 a:hover{
+  background-color:#382B5F;
+  border:3px solid #462A16;
+  color:white;}
+
+
+
+.section3 a:hover{
+  background-color:#6F213F;
+  border:3px solid #462A16;
+  color:white;}
+
+
+.footer{
+  padding-bottom: 3vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:1440px){
+  .nav ul li{width: 96%;text-align: center;}
+  .nav ul li a:hover{padding-left: 15vh;padding-right: 15vh;transition: 1s;}
+  .left{width: 100%;}
+  .right{width: 100%;}
+
+  }
+
+@media only screen and (max-width:768px){
+  .nav ul li{text-align:left;}
+  .nav ul li a:hover{padding-left: 15vh;padding-right: 15vh;transition: 1s;}
+}
