@@ -1,0 +1,150 @@
+body{
+	background-color:#AF69EE;
+	margin: 0;
+	padding: 0;}
+
+
+header h1{
+	background-color: darkred;	
+	margin: 0;
+	padding:10px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	color:#fff;}
+
+/*left-side*/
+	.body .left-side li{
+		list-style-type: none;
+		padding: 15px;
+		border-bottom: 1px solid black;
+		margin-right: 55px;}
+
+	.body .left-side li a{
+		text-decoration: none;
+		color:#B1560F;}
+
+	.body .left-side{
+		background-color: #fff;
+		width: 19%;
+		height: 450px;
+		float: left;
+		margin: 0;}
+/*left-side*/
+
+
+
+
+
+/*center*/
+	.body .center{
+		background-color: white;
+		color:black;
+		height:450px;
+		width: 60%;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		overflow: auto;}
+
+	.center p{
+		font-family:arial;
+		padding: 10px;
+		text-align:left;}
+
+	.center img{
+		width: 250px;
+		height: 250px;}
+/*center end*/
+
+
+
+
+/*right-side*/
+	.body .right-side{
+		background-color: white;
+		color:black;
+		height: 450px;
+		width: 19%;
+		float: left;
+		margin:0;
+		overflow: auto;}
+
+	.right-side p{
+		font-family: arial;
+		padding: 15px;
+		color:#B1560F;
+		text-align: justify;
+	}
+/*right-side end*/
+
+
+.nav h1{	
+	text-align: center;
+	margin-bottom: 30px;}
+
+.nav li:hover{
+	opacity: 0.7;
+}
+
+.container{
+	width: 80%;
+	background-color: #fff;}
+
+
+.container p{
+	text-align: justify;
+	padding: 20px;
+	font-size: 17px;}
+
+.container h1{
+	padding-top: 5px;}
+
+.form{
+	background-color:#2F4F4F;
+	padding: 25px;}
+
+
+.form form input{
+	color:black;
+	border:2px solid #000080;
+	padding-left: 10px;
+	width: 300px;
+	height:30px;
+	display:inline-block;
+	margin: 15px;
+	border-radius: 15px;
+	outline: rgb(0,0,0);}
+
+
+.form form input:focus{
+	border:2px solid #6B8E23;}
+
+
+.form a{
+	padding: 15px 150px;
+	border:none;
+	font-size: 17px;
+	text-decoration: none;
+	color:black	;
+	background-color: #DDD;}
+
+
+.form a:hover{
+	background-color: orange;
+	transition: 0.5s;}
+
+footer{
+	background-color:	#483D8B;
+	width: 100%;
+	text-align: center;
+	padding:15px 0px;
+	font-size: 20px;}
+
+
+@media only screen and (max-width: 768px){
+	.container{width: 100%;}
+	.body .left-side{margin-top: 15px;padding: 0; width: 100%;}
+	.body .center{margin-top: 15px;padding: 0; margin-left: 0; width: 100%;}
+	.body .right-side{margin-top: 15px;padding: 0; width: 100%;}
+}
